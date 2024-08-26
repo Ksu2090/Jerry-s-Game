@@ -26,8 +26,8 @@ jobs:
          - name: Install dependencies
            run: poetry install
 
-         - name: Run Flake8
-           run: poetry run flake8 .
-
          - name: Run Black
-           run: poetry run black --check .
+           run: poetry run black .
+
+         - name: Run Flake8
+           run: poetry run flake8 --check .
