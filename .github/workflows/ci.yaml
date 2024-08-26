@@ -15,7 +15,7 @@ jobs:
          - name: Set up Python
            uses: actions/setup-python@v2
            with:
-             python-version: '3.8'  # Укажите версию Python, используемую в вашем проекте
+             python-version: '3.12'  # Укажите версию Python, используемую в вашем проекте
 
          - name: Install Poetry
            run: curl -sSL https://install.python-poetry.org | python3 -
